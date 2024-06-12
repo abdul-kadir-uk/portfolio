@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Stack Developer</title>
+    <meta
+      name="description"
+      content=" This Is The Personal Portfolio Website Of Full Stack Developer"
+    />
+    <link rel="Stylesheet" href="./src/output.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/assets/img/ak.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body>
+    
+    <!-- header -->
+    <header id="header" 
+    class="header-box  bg-black text-white  md:h-10 
+    md:px-2 md:py-7 flex md:items-center flex-col md:flex-row
+    md:text-xl">
+     
+        <div class="logo text-center">
+          <p class="italic text-green-600 font-semibold "> <a href="#home">AK</a> </p>
+        </div>
+
+        <nav id="navbar" class="flex flex-col md:flex-row justify-center items-center md:w-11/12 md:justify-evenly ">
+          <ul class="nav-ul">
+            <li> <a href="#home" class=" nav-item hover:text-green-600 transition ease-in-out duration-500">Home</a></li>
+            <li><a href="#about" class="nav-item hover:text-green-600 transition ease-in-out duration-500" >About</a></li>
+            <li><a href="#skills" class=" nav-item hover:text-green-600 transition ease-in-out duration-500">Skills</a></li>
+            <li><a href="#services" class="nav-item hover:text-green-600 transition ease-in-out duration-500">Services</a></li>
+            <li><a href="#contact" class=" nav-item hover:text-green-600 transition ease-in-out duration-500">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="toggle-btn flex justify-center my-1  cursor-pointer">
+          <img
+            src="src/assets/img/moon.svg"
+            alt="moon"
+            width="25px"
+            height="25px"
+            class="moon border bg-white  sm:block"   
+          />
+          <img
+            src="./src/assets/img/sun.svg"
+            alt="sun"
+            width="30px"
+            height="30px"
+            class="sun border  sm:block"
+          /> 
+      </div>
+    </header>
+
+    <main id="main-container">
+      <!-- home -->
+      <section id="home">
+        <div class="home-text">
+             <p class="text-2xl italic"> I Am, </p>
+             <h2 class="home-heading text-4xl">Abdul Kadir</h2>
+            <p class="text-2xl"> a full Stack Developer,  </p>
+              <p class="text-lg">Building Innovative Web Applications | Creating Seamless Digital Solutions</p>
+              <button class="resume-btn">
+                <a href="src/assets/documents/my cv.pdf" target="_blank" class="text-md font-bold"> Download Resume </a>
+              </button>
+           </div>
+
+          <div class="img-profile md:mr-4">
+            <img class="profile-pic" src="src/assets/img/pic2.jpg" alt="profile pic"
+            height="200px" width="200px"
+            >
+            <div class="icons">
+              <a href="https://www.instagram.com/abdul_kadir_2021/" target="_blank"><img src="src/assets/img/insta.jpeg" alt="insta"/></a>
+              <a href="https://github.com/abdul-kadir-uk" target="_blank"><img src="src/assets/img/github-logo.png" alt="github"/></a>
+              <a href="https://x.com/Abdul_Kadir_uk" target="_blank"><img src="src/assets/img/twitter.svg" alt="twitter"/></a>
+              <a href="https://www.linkedin.com/in/abdul-kadir-110948245/" target="_blank"><img src="src/assets/img/Linkedin.png" alt="Linkedin"/></a>
+            </div>
+          </div>
+      </section>
+
+      <!-- about  -->
+      <section id="about" class="about">
+        <div class="item-1">
+          <h2 class="about-head md:hidden italic text-4xl font-bold"> About Me </h2>
+          <img src="src/assets/img/profile.jpeg" alt="Profile Image"
+          height="250px" width="250px">
+        </div>
+        <div class="item-2">
+          <input type="checkbox" class="read-more-state" id="post-1" />
+          <div class="about-section">
+              <h2 class="md:text-4xl italic">About Me</h2>
+              <p class="normal-text md:text-lg md:mb-2">
+                As a MERN stack developer, I thrive in the dynamic world of web development, leveraging my expertise in MongoDB, Express.js, React, and Node.js to create robust, scalable applications. My journey in this field is fueled by a passion for facing and overcoming challenges, both in my professional projects and personal life. I find immense satisfaction in tackling complex problems, dissecting them, and crafting innovative solutions that not only meet but exceed expectations.
+              </p>
+              <p class="extra-text md:text-lg">This is additional information about me. I have a diverse set of skills, ranging from design to development. I enjoy solving complex problems and working on innovative projects. In my free time, I like to read, travel, and explore new technologies.</p>
+              <label for="post-1" class="hover:bg-blue-700 transition-all duration-300 md:text-lg "></label>
+          </div>
+        </div>
+      </section>
+    
+
+      <!-- skills -->
+      <section id="skills">
+        <h2 class="s-heading md:text-4xl mb-3">Skills</h2>
+        <div class="skills-section grid grid-cols-1 md:grid-cols-2 md:gap-2.5 ">
+          <div class="skill html">
+              <div class="skill-title">
+                <img src="src/assets/img/html-5.png" alt="html" height="30" width="30">
+                <h2>
+                  HTML
+                </h2>
+              </div>
+              <div class="progress-bar">
+                  <div class="progress-bar-fill">90%</div>
+              </div>
+          </div>
+          <div class="skill css">
+              <div class="skill-title">
+                <img src="src/assets/img/css-3.png" alt="css-3" height="30" width="30">
+                <h2>
+                  CSS
+                </h2>
+              </div>
+              <div class="progress-bar">
+                  <div class="progress-bar-fill">80%</div>
+              </div>
+          </div>
+          <div class="skill javascript">
+              <div class="skill-title">
+                <img src="src/assets/img/java-script.png" alt="css-3" height="30" width="30">
+                <h2>
+                  JS
+                </h2>
+              </div>
+              <div class="progress-bar">
+                  <div class="progress-bar-fill">70%</div>
+              </div>
+          </div>
+          <div class="skill react">
+              <div class="skill-title">
+                <img src="src/assets/img/react.svg" alt="css-3" height="30" width="30">
+                <h2>
+                  React
+                </h2>
+              </div>
+              <div class="progress-bar">
+                  <div class="progress-bar-fill">85%</div>
+              </div>
+          </div>
+      <div class="skill node-js">
+        <div class="skill-title">
+          <img src="src/assets/img/node-js.svg" alt="css-3" height="30" width="30">
+          <h2>
+            Node js
+          </h2>
+        </div>
+        <div class="progress-bar">
+            <div class="progress-bar-fill">80%</div>
+        </div>
+    </div>
+<div class="skill express-js">
+  <div class="skill-title">
+    <img src="src/assets/img/icons8-express-js-100.svg" alt="css-3" height="30" width="30">
+    <h2>
+      Express js
+    </h2>
+  </div>
+  <div class="progress-bar">
+      <div class="progress-bar-fill">90%</div>
+  </div>
+</div>
+<div class="skill MongoDB">
+  <div class="skill-title">
+    <img src="src/assets/img/mongodb.png" alt="css-3" height="100" width="100">
+    <h2>
+      MongoDB
+    </h2>
+  </div>
+  <div class="progress-bar">
+      <div class="progress-bar-fill">85%</div>
+  </div>
+</div>
+<div class="skill version-control">
+  <div class="skill-title">
+    <img src="src/assets/img/git-seeklogo.svg" alt="css-3" height="30" width="30">
+    <h2>
+      Version Control
+    </h2>
+  </div>
+  <div class="progress-bar">
+      <div class="progress-bar-fill">95%</div>
+  </div>
+</div>
+<div class="skill bootstrap order-5">
+  <div class="skill-title">
+    <img src="src/assets/img/bootstrap.png" alt="css-3" height="30" width="30">
+    <h2>
+      Bootstrap 
+    </h2>
+  </div>
+  <div class="progress-bar">
+      <div class="progress-bar-fill">90%</div>
+  </div>
+</div>
+<div class="skill tailwind-css order-6">
+  <div class="skill-title">
+    <img src="src/assets/img/tailwind.jpg" alt="css-3" height="30" width="30">
+    <h2>
+      Tailwind CSS
+    </h2>
+  </div>
+  <div class="progress-bar">
+      <div class="progress-bar-fill">85%</div>
+  </div>
+</div>
+</div>
+      </section>
+
+      <!-- services -->
+      <section id="services" class="services">
+        <h2 class="certificate-head md:text-4xl md:pt-5"> Certifications </h2>
+        <div class="certificate-container">
+        <div class="certifications">
+          <div class="card">
+              <h3>Certification in HTML</h3>
+              <img src="src/assets/img/certificate.png" alt="certificate">
+              <p>Structuring the webpages</p>
+              <a href="src/assets/documents/Certificate.pdf" target="_blank">View Certificate</a>
+          </div>
+          <div class="card">
+              <h3>Certification in CSS</h3>
+              <img src="src/assets/img/certificate.png" alt="certificate">
+              <p>Designing the webpages</p>
+              <a href="src/assets/documents/Certificate.pdf" target="_blank">View Certificate</a>
+          </div>
+          <div class="card">
+              <h3>Certification in javascript</h3>
+              <img src="src/assets/img/certificate.png" alt="certificate">
+              <p>Building logics for webpages</p>
+              <a href="src/assets/documents/Certificate.pdf" target="_blank">View Certificate</a>
+          </div>
+      </div>
+    </div>
+      </section>
+
+      <!-- projects -->
+      <section id="projects" class="projects">
+        <h2 class="project-head md:text-4xl md:mb-12">Projects</h2>
+        <div class="project-cards">
+            <div class="p-card p-1">
+               <div class="card-content">
+                <h3> Ecommerce </h3>
+                <p> where you buy the product you like </p>
+                <button><a href="src/assets/img/e-commerce.avif">Visit</a></button>
+              </div>
+            </div>
+            <div class="p-card p-2">
+              <div class="card-content">
+                <h3>Social media</h3>
+                <p>Connect the people you love</p>
+                <button><a href="src/assets/img/social media.png">Visit</a></button>
+              </div>
+              
+            </div>
+            <div class="p-card p-3">
+              <div class="card-content">
+                <h3>book store</h3>
+                <p>Reads the books you want</p>
+                <button><a href="src/assets/img/books-store.jpg">Visit</a></button>
+              </div>
+             
+            </div>
+            <div class="p-card p-4">
+              <div class="card-content">
+
+                <h3>chat</h3>
+                <p>Real time chat Application</p>
+                <button><a href="src/assets/img/chat.png">Visit</a></button>
+                </div>
+            </div>
+            <div class="p-card p-5">
+              <div class="card-content">
+
+                <h3>Hotel</h3>
+                <p>Hotel booking Application</p>
+                <button><a href="src/assets/img/hotel.png">Visit</a></button>
+              </div>
+            </div>
+            <div class="p-card p-6">
+              <div class="card-content">
+
+                <h3>Food delivery</h3>
+                <p>Order the food you like</p>
+                <button><a href="src/assets/img/food-delivery.jpg">Visit</a></button>
+            </div>
+            </div>
+            <div class="p-card p-7">
+              <div class="card-content">
+
+                <h3>job board</h3>
+                <p>find the jobs</p>
+                <button><a href="src/assets/img/job board.webp">Visit</a></button>
+                </div>
+            </div>
+            <div class="p-card p-8">
+              <div class="card-content">
+
+              <h3>Online Learning</h3>
+              <p>Online Learning Platforms for quality education</p>
+              <button><a href="src/assets/img/online_learning.jpg">Visit</a></button>
+              </div>
+          </div>
+        </div>
+    </section> 
+
+      <!-- contact -->
+      <section id="contact">
+        <div class="contact-section">
+          <h2 class="contact-head md:text-4xl ">Contact </h2>
+          <form action="#" method="post">
+              <div class="form-group">
+                  <label class="md:text-xl" for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                  <label class="md:text-xl" for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                  <label class="md:text-xl" for="message">Message:</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button class="contact-btn md:text-xl md:mt-3" type="submit">Submit</button>
+          </form>
+      </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer id="footer">
+       <div class="mb-2 ">&copy;2024 Made with Love by AK. <br class="md:hidden"/> All Rights Reserved</div>
+      <div class="footer-content">
+        <button class="footer-button call-button "> <a href="https://wa.me/917055470095?text=Hello%20there!" target="_blank"">Call</a> </button>
+        <button class="footer-button email-button "><a href="mailto:abdulkadiruk06@gmail.com?subject=Subject%20Here&body=Body%20text%20here">Email</a> </button>
+    </div>
+    </footer>
+  </body>
+</html>
