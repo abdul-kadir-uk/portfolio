@@ -7,7 +7,7 @@ body {
 #services,
 #projects,
 #contact {
-  box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.3), -2px 0px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* header  */
